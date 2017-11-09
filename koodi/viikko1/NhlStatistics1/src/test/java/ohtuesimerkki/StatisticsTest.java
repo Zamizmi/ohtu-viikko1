@@ -97,7 +97,7 @@ public class StatisticsTest {
         parhaat3.add(new Player("Lemieux", "PIT", 45, 54));
         parhaat3.add(new Player("Yzerman", "DET", 42, 56));
         
-        assertEquals(parhaat3.toString(), rojekstats.topScorers(2).toString());
+        assertEquals(parhaat3.toString(), stats.topScorers(2).toString());
     }
 
     // TODO add test methods here.
